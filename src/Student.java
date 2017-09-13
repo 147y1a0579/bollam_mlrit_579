@@ -20,8 +20,8 @@ public class Student implements Comparable {
 	 */
 	private int id;
 	{
-        System.out.println("enter the student id:");
-        this.id=id;
+        this.id=579;
+	System.out.println("student id is"+this.id);
 	} 
 
 	/**
@@ -29,16 +29,27 @@ public class Student implements Comparable {
 	 * fullName = "David Luis";
 	 */
 	private String fullName;
+	{
+	 this.fullName="bollam lavanya";
+	 System.out.println("fullname is"+this.fullName);
+	}
 
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
 	 */
 	private Date birthDate;
+	{
+	  this.birthDate="1996-03-05";
+	 System.out.println("birthDate is"+this.birthDate);
+	}
 
 	/**
 	 * student average mark
 	 */
 	private double avgMark;
+	{
+	 this.avgMark=75.3;
+	 System.out.println("avgMark is"+this.avgMark);
 
 	public Student(int id, String fullName, Date birthDate, double avgMark) {
 		this.id = id;
